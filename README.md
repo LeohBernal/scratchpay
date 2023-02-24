@@ -48,6 +48,9 @@ $ npm run test
 # test coverage
 $ npm run test:cov
 ```
+### Current test coverage
+
+<img src="./assets/coverage.png"></img>
 
 ## API Documentation
 
