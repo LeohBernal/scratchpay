@@ -1,6 +1,6 @@
 import { ClinicTypeEnum } from '@enums/clinic-type-enum';
 import { ApiProperty } from '@nestjs/swagger';
-import { IsOptional, IsString } from 'class-validator';
+import { IsEnum, IsOptional, IsString } from 'class-validator';
 import { IsHourFormat, IsValidState } from '../validators';
 
 class GetClinicsRequestDTO {
@@ -26,7 +26,7 @@ class GetClinicsRequestDTO {
   public to?: string;
 
   @IsOptional()
-  @IsString()
+  @IsEnum(ClinicTypeEnum)
   public type?: ClinicTypeEnum;
 }
 
