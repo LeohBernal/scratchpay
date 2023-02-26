@@ -12,6 +12,7 @@
 
 # test
 jest.config.js
+jest-e2e.config.js
 
 # docker
 Dockerfile

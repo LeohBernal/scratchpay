@@ -47,6 +47,9 @@ $ npm run test
 
 # test coverage
 $ npm run test:cov
+
+# test e2e
+$ npm run test:e2e
 ```
 ### Current test coverage
 
